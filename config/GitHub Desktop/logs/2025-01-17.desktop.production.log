@@ -1,0 +1,72 @@
+2025-01-17T20:41:12.899Z - info: [ui] [AppStore] loading 2 repositories from store
+2025-01-17T20:41:12.904Z - info: [ui] [AppStore] found account: MrShiroLu (Burak Artun)
+2025-01-17T20:41:13.367Z - warn: [ui] fetchAll: 'repos/MrShiroLu/arch-dotfiles/issues?state=open' returned a 404
+2025-01-17T20:41:13.369Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-17T20:41:13.369Z - warn: [ui] fetchMentionables: 'repos/MrShiroLu/arch-dotfiles/mentionables/users' returned a 404
+2025-01-17T20:41:13.981Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchProtectedBranches (/home/burak/webpack:/app/src/lib/api.ts:1644:7)
+    at Hp.updateBranchProtectionsFromAPI (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4218:11)
+2025-01-17T20:41:13.995Z - warn: [ui] fetchAll: 'repos/MrShiroLu/arch-dotfiles/pulls?state=open' returned a 404
+2025-01-17T20:41:14.007Z - info: [ui] Subscribed 'MrShiroLu' to Alive channel
+2025-01-17T20:41:14.008Z - info: [ui] launching: 3.4.3-linux1 (Linux 6.12.9-arch1-1)
+2025-01-17T20:41:14.009Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-17T20:41:14.624Z - info: [ui] Stats reported.
+2025-01-17T20:41:20.468Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-17T20:41:20.647Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/MrShiroLu/arch-dotfiles.git/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2025-01-17T20:41:21.022Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchPushControl (/home/burak/webpack:/app/src/lib/api.ts:1618:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1240:39)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-17T20:41:21.242Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/MrShiroLu/arch-dotfiles/rulesets
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchAllRepoRulesets (/home/burak/webpack:/app/src/lib/api.ts:1688:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1244:15)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-17T20:41:21.588Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/MrShiroLu/arch-dotfiles/rules/branches/main
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchRepoRulesForBranch (/home/burak/webpack:/app/src/lib/api.ts:1667:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1265:15)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-17T20:41:25.890Z - info: [ui] No submodules found. Skipping "git submodule status"
+2025-01-17T20:41:36.038Z - info: [ui] [BranchPruner] No branches to prune.
+2025-01-17T20:41:39.946Z - info: [main] opening in browser: https://github.com/MrShiroLu/e-commerce-vanilla-js
+2025-01-17T20:42:01.594Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-17T20:42:01.872Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-17T20:42:02.224Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-17T20:42:02.399Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/MrShiroLu/arch-dotfiles.git/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2025-01-17T20:42:02.610Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 1.1s of which 0.2s paused, total 1.3s
+2025-01-17T20:42:49.022Z - info: [ui] [Timing] Action 'create commit' for 'MrShiroLu/e-commerce-vanilla-js' took 0.313s
+2025-01-17T20:42:50.646Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-17T20:42:55.807Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-17T20:43:03.951Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-17T20:43:09.257Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-17T20:43:09.772Z - info: [ui] Executing push: git push origin master:master --progress (took 1.215s)
+2025-01-17T20:43:33.947Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-17T20:43:52.530Z - info: [main] opening in browser: https://github.com/MrShiroLu/e-commerce-vanilla-js
+2025-01-17T20:44:03.888Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-17T20:44:11.358Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store

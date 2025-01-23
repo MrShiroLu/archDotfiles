@@ -1,0 +1,7 @@
+2025-01-22 00:41:00.858 [warning] /home/burak/.ssh/config: ENOENT: no such file or directory, open '/home/burak/.ssh/config'
+2025-01-22 00:41:00.858 [info] Activation> Extension version: 0.102.0
+2025-01-22 00:41:00.858 [info] TemporaryState> Error in initialization: Unable to delete nonexistent file 'vscode-userdata:/home/burak/.config/Code - OSS/User/globalStorage/github.vscode-pull-request-github/temp'
+2025-01-22 00:41:00.858 [info] Looking for git repository
+2025-01-22 00:41:00.858 [info] Found 0 repositories during activation
+2025-01-22 00:41:00.858 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-22 00:41:00.858 [info] Registering git provider

@@ -1,0 +1,29 @@
+[2025-Jan-14 22:41:02.339 +03:00][30827:30827][info ] Logging initialized
+[2025-Jan-14 22:41:02.339 +03:00][30827:30827][info ] Initializing krisp SDK...
+[2025-Jan-14 22:41:02.339 +03:00][30827:30827][info ] DoKrispInitialize
+[2025-Jan-14 22:41:02.955 +03:00][30827:30827][info ] LoadDynamicKrisp
+[2025-Jan-14 22:41:02.955 +03:00][30827:30827][info ] Did not find KRISP_DYLIB_PATH, skipping dynamic loading
+[2025-Jan-14 22:41:02.955 +03:00][30827:30827][info ] Initializing Krisp SDK in PID 30827, addr 0x73cf7c5906f0
+[2025-Jan-14 22:41:03.237 +03:00][30827:30827][info ] Initialized Krisp SDK successfully
+[2025-Jan-14 22:41:03.237 +03:00][30827:30827][info ] Krisp SDK initialized
+[2025-Jan-14 22:43:53.266 +03:00][30827:30861][info ] KrispNCSetup: sampleRate = 48000, duration = 10
+[2025-Jan-14 22:43:53.266 +03:00][30827:30861][info ] Setting Krisp model: full_NC
+[2025-Jan-14 22:43:53.288 +03:00][30827:30861][info ] KrispVADSetup: sampleRate = 48000, duration = 10
+[2025-Jan-14 22:43:53.541 +03:00][30827:30853][info ] KrispVADReset
+[2025-Jan-14 22:43:54.399 +03:00][30827:30861][info ] KrispVADSetup: sampleRate = 48000, duration = 10
+[2025-Jan-14 22:45:17.683 +03:00][30827:30861][info ] KrispVADSetup: sampleRate = 48000, duration = 10
+[2025-Jan-14 22:45:18.213 +03:00][30827:30853][info ] KrispVADReset
+[2025-Jan-14 22:45:18.217 +03:00][30827:30861][info ] KrispVADSetup: sampleRate = 48000, duration = 10
+[2025-Jan-14 22:45:59.414 +03:00][30827:30853][info ] KrispVADReset
+[2025-Jan-14 22:46:05.730 +03:00][30827:30853][info ] KrispVADReset
+[2025-Jan-14 22:48:13.857 +03:00][33276:33276][info ] Logging initialized
+[2025-Jan-14 22:48:13.857 +03:00][33276:33276][info ] Initializing krisp SDK...
+[2025-Jan-14 22:48:13.857 +03:00][33276:33276][info ] DoKrispInitialize
+[2025-Jan-14 22:48:14.384 +03:00][33276:33276][info ] LoadDynamicKrisp
+[2025-Jan-14 22:48:14.384 +03:00][33276:33276][info ] Did not find KRISP_DYLIB_PATH, skipping dynamic loading
+[2025-Jan-14 22:48:14.384 +03:00][33276:33276][info ] Initializing Krisp SDK in PID 33276, addr 0x71c8941906f0
+[2025-Jan-14 22:48:14.666 +03:00][33276:33276][info ] Initialized Krisp SDK successfully
+[2025-Jan-14 22:48:14.666 +03:00][33276:33276][info ] Krisp SDK initialized
+[2025-Jan-14 22:48:27.974 +03:00][33276:33276][info ] Logging initialized
+[2025-Jan-14 22:48:27.974 +03:00][33276:33276][info ] Initializing krisp SDK...
+[2025-Jan-14 22:48:27.974 +03:00][33276:33276][info ] Krisp SDK initialized

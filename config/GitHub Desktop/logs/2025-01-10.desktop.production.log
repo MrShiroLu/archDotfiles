@@ -1,0 +1,168 @@
+2025-01-10T21:01:52.907Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-01-10T21:01:52.911Z - info: [ui] [AppStore] found account: MrShiroLu (Burak Artun)
+2025-01-10T21:01:53.424Z - warn: [ui] fetchAll: 'repos/MrShiroLu/arch-dotfiles/issues?state=open' returned a 404
+2025-01-10T21:01:53.439Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-10T21:01:53.440Z - warn: [ui] fetchMentionables: 'repos/MrShiroLu/arch-dotfiles/mentionables/users' returned a 404
+2025-01-10T21:01:54.119Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchProtectedBranches (/home/burak/webpack:/app/src/lib/api.ts:1644:7)
+    at Hp.updateBranchProtectionsFromAPI (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4218:11)
+2025-01-10T21:01:54.144Z - warn: [ui] fetchAll: 'repos/MrShiroLu/arch-dotfiles/pulls?state=open' returned a 404
+2025-01-10T21:01:54.196Z - info: [ui] launching: 3.4.3-linux1 (Linux 6.12.8-arch1-1)
+2025-01-10T21:01:54.197Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-10T21:01:54.419Z - info: [ui] Subscribed 'MrShiroLu' to Alive channel
+2025-01-10T21:01:54.830Z - info: [ui] Stats reported.
+2025-01-10T21:02:01.278Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-10T21:02:01.463Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/MrShiroLu/arch-dotfiles.git/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2025-01-10T21:02:01.725Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchPushControl (/home/burak/webpack:/app/src/lib/api.ts:1618:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1240:39)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-10T21:02:01.936Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/MrShiroLu/arch-dotfiles/rulesets
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchAllRepoRulesets (/home/burak/webpack:/app/src/lib/api.ts:1688:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1244:15)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-10T21:02:02.337Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/MrShiroLu/arch-dotfiles/rules/branches/main
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchRepoRulesForBranch (/home/burak/webpack:/app/src/lib/api.ts:1667:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1265:15)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-10T21:31:53.830Z - info: [ui] [AppStore] loading 1 repositories from store
+2025-01-10T21:31:53.835Z - info: [ui] [AppStore] found account: MrShiroLu (Burak Artun)
+2025-01-10T21:31:53.928Z - info: [ui] [BranchPruner] Last prune took place 30 minutes ago - skipping
+2025-01-10T21:31:54.266Z - warn: [ui] fetchAll: 'repos/MrShiroLu/arch-dotfiles/issues?state=open' returned a 404
+2025-01-10T21:31:54.290Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-10T21:31:54.294Z - warn: [ui] fetchMentionables: 'repos/MrShiroLu/arch-dotfiles/mentionables/users' returned a 404
+2025-01-10T21:31:55.001Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchProtectedBranches (/home/burak/webpack:/app/src/lib/api.ts:1644:7)
+    at Hp.updateBranchProtectionsFromAPI (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4218:11)
+2025-01-10T21:31:55.048Z - info: [ui] Subscribed 'MrShiroLu' to Alive channel
+2025-01-10T21:31:55.132Z - info: [ui] launching: 3.4.3-linux1 (Linux 6.12.8-arch1-1)
+2025-01-10T21:31:55.133Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2025-01-10T21:31:55.297Z - warn: [ui] fetchAll: 'repos/MrShiroLu/arch-dotfiles/pulls?state=open' returned a 404
+2025-01-10T21:31:59.442Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-10T21:31:59.687Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/MrShiroLu/arch-dotfiles.git/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2025-01-10T21:31:59.989Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchPushControl (/home/burak/webpack:/app/src/lib/api.ts:1618:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1240:39)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-10T21:32:00.233Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/MrShiroLu/arch-dotfiles/rulesets
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchAllRepoRulesets (/home/burak/webpack:/app/src/lib/api.ts:1688:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1244:15)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-10T21:32:00.565Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/MrShiroLu/arch-dotfiles/rules/branches/main
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchRepoRulesForBranch (/home/burak/webpack:/app/src/lib/api.ts:1667:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1265:15)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-10T21:32:28.939Z - info: [ui] Executing clone: git -c init.defaultBranch=master clone --recursive --progress -- https://github.com/MrShiroLu/e-commerce-vanilla-js.git /home/burak/GitHub/e-commerce-vanilla-js (took 1.800s)
+2025-01-10T21:32:28.953Z - info: [ui] [AppStore] adding repository at /home/burak/GitHub/e-commerce-vanilla-js to store
+2025-01-10T21:32:29.214Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-10T21:32:29.234Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchProtectedBranches (/home/burak/webpack:/app/src/lib/api.ts:1644:7)
+    at Hp.updateBranchProtectionsFromAPI (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4218:11)
+2025-01-10T21:32:29.303Z - info: [ui] [BranchPruner] Last prune took place 31 minutes ago - skipping
+2025-01-10T21:32:29.417Z - warn: [ui] fetchAll: 'repos/MrShiroLu/arch-dotfiles/issues?state=open' returned a 404
+2025-01-10T21:32:29.505Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-10T21:32:29.744Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/MrShiroLu/arch-dotfiles.git/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2025-01-10T21:32:30.098Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchPushControl (/home/burak/webpack:/app/src/lib/api.ts:1618:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1240:39)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-10T21:32:30.312Z - info: [ui] [fetchAllRepoRulesets] unable to fetch all repo rulesets | repos/MrShiroLu/arch-dotfiles/rulesets
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchAllRepoRulesets (/home/burak/webpack:/app/src/lib/api.ts:1688:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1244:15)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-10T21:32:30.505Z - info: [ui] [fetchRepoRulesForBranch] unable to fetch repo rules for branch: main | repos/MrShiroLu/arch-dotfiles/rules/branches/main
+Error: Not Found
+    at yn (/home/burak/webpack:/app/src/lib/http.ts:178:11)
+    at ir.fetchRepoRulesForBranch (/home/burak/webpack:/app/src/lib/api.ts:1667:7)
+    at Hp.refreshBranchProtectionState (/home/burak/webpack:/app/src/lib/stores/app-store.ts:1265:15)
+    at /home/burak/webpack:/app/src/lib/stores/app-store.ts:5140:32
+    at Hp.withPushPullFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:4640:5)
+    at Hp.performFetch (/home/burak/webpack:/app/src/lib/stores/app-store.ts:5097:5)
+    at pw.performAndScheduleFetch (/home/burak/webpack:/app/src/lib/stores/helpers/background-fetcher.ts:92:7)
+2025-01-10T21:32:30.514Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-10T21:32:30.823Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-10T21:32:31.176Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-10T21:32:31.342Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/MrShiroLu/arch-dotfiles.git/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2025-01-10T21:32:33.796Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 2 repositories took 3.5s of which 0.0s paused, total 3.5s
+2025-01-10T21:32:43.287Z - info: [ui] [BranchPruner] Last prune took place 14 seconds ago - skipping
+2025-01-10T21:33:26.240Z - info: [main] opening in browser: https://github.com/MrShiroLu/e-commerce-vanilla-js
+2025-01-10T21:35:28.764Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-10T21:35:31.512Z - info: [ui] Executing push: git push origin master:master --progress (took 3.157s)
+2025-01-10T22:06:04.282Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-10T22:06:04.515Z - warn: [ui] fetchRepository: 'MrShiroLu/arch-dotfiles' returned a 404
+2025-01-10T22:06:05.100Z - info: [ui] credential-helper: found GitHub credential for https://github.com/ in store
+2025-01-10T22:06:05.329Z - error: [ui] `git fetch --progress --prune --recurse-submodules=on-demand origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/MrShiroLu/arch-dotfiles.git/' not found
+
+(The error was parsed as 9: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2025-01-10T22:08:24.009Z - info: [ui] Executing fetch: git fetch --progress --prune --recurse-submodules=on-demand origin (took 1.444s)
+2025-01-10T22:08:27.254Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 3.244s)
+2025-01-10T22:29:13.080Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 1.7s of which 1387.7s paused, total 1389.4s

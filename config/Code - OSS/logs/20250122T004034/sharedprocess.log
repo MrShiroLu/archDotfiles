@@ -1,0 +1,70 @@
+2025-01-22 00:40:57.302 [info] Getting Manifest... github.vscode-pull-request-github
+2025-01-22 00:40:59.018 [info] Installing extension: github.vscode-pull-request-github {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json","path":"/home/burak/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-17T08:53:36.849Z"}}
+2025-01-22 00:41:00.373 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-22 00:41:00.373 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2025-01-22 00:41:00.460 [info] Extracted extension to file:///home/burak/.vscode-oss/extensions/github.vscode-pull-request-github-0.102.0-universal: github.vscode-pull-request-github
+2025-01-22 00:41:00.474 [info] Renamed to /home/burak/.vscode-oss/extensions/github.vscode-pull-request-github-0.102.0-universal
+2025-01-22 00:41:00.501 [info] Extension installed successfully: github.vscode-pull-request-github vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json
+2025-01-22 00:41:00.567 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-22 00:42:24.196 [info] Getting Manifest... ms-python.python
+2025-01-22 00:42:24.779 [info] Installing extension: ms-python.python {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json","path":"/home/burak/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-17T08:53:36.849Z"}}
+2025-01-22 00:42:24.977 [info] Getting Manifest... ms-python.debugpy
+2025-01-22 00:42:25.282 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json","path":"/home/burak/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-17T08:53:36.849Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2025-01-22 00:42:28.267 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-22 00:42:28.267 [info] Extension signature verification is not done: ms-python.debugpy
+2025-01-22 00:42:28.820 [info] Extracted extension to file:///home/burak/.vscode-oss/extensions/ms-python.debugpy-2024.14.0-linux-x64: ms-python.debugpy
+2025-01-22 00:42:28.843 [info] Renamed to /home/burak/.vscode-oss/extensions/ms-python.debugpy-2024.14.0-linux-x64
+2025-01-22 00:42:28.930 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-22 00:42:30.632 [info] Getting Manifest... redhat.java
+2025-01-22 00:42:30.889 [info] Installing extension: redhat.java {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json","path":"/home/burak/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-17T08:53:36.849Z"}}
+2025-01-22 00:42:33.714 [info] Getting Manifest... esbenp.prettier-vscode
+2025-01-22 00:42:34.310 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json","path":"/home/burak/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-17T08:53:36.849Z"}}
+2025-01-22 00:42:36.131 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-22 00:42:36.131 [info] Extension signature verification is not done: esbenp.prettier-vscode
+2025-01-22 00:42:36.278 [info] Extracted extension to file:///home/burak/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal: esbenp.prettier-vscode
+2025-01-22 00:42:36.290 [info] Renamed to /home/burak/.vscode-oss/extensions/esbenp.prettier-vscode-11.0.0-universal
+2025-01-22 00:42:36.312 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json
+2025-01-22 00:42:36.317 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-22 00:42:41.875 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-22 00:42:41.875 [info] Extension signature verification is not done: ms-python.python
+2025-01-22 00:42:42.834 [info] Extracted extension to file:///home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal: ms-python.python
+2025-01-22 00:42:42.899 [info] Renamed to /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal
+2025-01-22 00:42:42.924 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json
+2025-01-22 00:42:42.924 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json
+2025-01-22 00:42:42.991 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-22 00:43:04.131 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2025-01-22 00:43:04.131 [info] Extension signature verification is not done: redhat.java
+2025-01-22 00:43:05.929 [info] Extracted extension to file:///home/burak/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64: redhat.java
+2025-01-22 00:43:05.956 [info] Renamed to /home/burak/.vscode-oss/extensions/redhat.java-1.38.0-linux-x64
+2025-01-22 00:43:05.981 [info] Extension installed successfully: redhat.java vscode-userdata:/home/burak/.vscode-oss/extensions/extensions.json
+2025-01-22 00:43:06.043 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/burak/.vscode-oss/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)

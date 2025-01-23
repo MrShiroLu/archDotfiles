@@ -1,0 +1,6 @@
+2025-01-22 00:41:30.946 [warning] /home/burak/.ssh/config: ENOENT: no such file or directory, open '/home/burak/.ssh/config'
+2025-01-22 00:41:30.946 [info] Activation> Extension version: 0.102.0
+2025-01-22 00:41:30.959 [info] Looking for git repository
+2025-01-22 00:41:30.959 [info] Found 0 repositories during activation
+2025-01-22 00:41:30.959 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-22 00:41:30.960 [info] Registering git provider

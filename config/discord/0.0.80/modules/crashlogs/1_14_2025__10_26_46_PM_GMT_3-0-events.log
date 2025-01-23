@@ -1,0 +1,74 @@
+1/14/2025, 10:26:46 PM GMT+3 0: 
+
+----------------------------------------------
+1/14/2025, 10:26:46 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.80"}, modulepath: /home/burak/.config/discord/0.0.80/modules
+1/14/2025, 10:26:46 PM GMT+3 2: ✅ webContents.created web1 ""
+1/14/2025, 10:26:46 PM GMT+3 3: ✅ window.created win1 "discord"
+1/14/2025, 10:26:46 PM GMT+3 4: ✅ webContents.did-finish-load web1
+1/14/2025, 10:27:24 PM GMT+3 5: window.close win1
+1/14/2025, 10:40:20 PM GMT+3 0: 
+
+----------------------------------------------
+1/14/2025, 10:40:20 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.80"}, modulepath: /home/burak/.config/discord/0.0.80/modules
+1/14/2025, 10:40:20 PM GMT+3 2: ✅ webContents.created web1 "index.html"
+1/14/2025, 10:40:20 PM GMT+3 3: ✅ window.created win1 "discord"
+1/14/2025, 10:40:20 PM GMT+3 4: ✅ webContents.did-finish-load web1
+1/14/2025, 10:40:44 PM GMT+3 5: ✅ webContents.created web2 ""
+1/14/2025, 10:40:44 PM GMT+3 6: ✅ window.created win2 "Discord"
+1/14/2025, 10:40:56 PM GMT+3 7: ✅ webContents.did-finish-load web2
+1/14/2025, 10:40:57 PM GMT+3 8: window.close win1
+1/14/2025, 10:40:57 PM GMT+3 9: webContents.destroyed web1
+1/14/2025, 10:40:57 PM GMT+3 10: window.closed win1
+1/14/2025, 10:46:33 PM GMT+3 11: window.close win2
+1/14/2025, 10:46:35 PM GMT+3 12: before-quit
+1/14/2025, 10:46:35 PM GMT+3 13: window.close win2
+1/14/2025, 10:46:36 PM GMT+3 14: webContents.destroyed web2
+1/14/2025, 10:46:41 PM GMT+3 0: 
+
+----------------------------------------------
+1/14/2025, 10:46:41 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.80"}, modulepath: /home/burak/.config/discord/0.0.80/modules
+1/14/2025, 10:46:41 PM GMT+3 2: ✅ webContents.created web1 "index.html"
+1/14/2025, 10:46:41 PM GMT+3 3: ✅ window.created win1 "discord"
+1/14/2025, 10:46:41 PM GMT+3 4: ✅ webContents.did-finish-load web1
+1/14/2025, 10:47:04 PM GMT+3 5: window.close win1
+1/14/2025, 10:47:04 PM GMT+3 6: webContents.destroyed web1
+1/14/2025, 10:48:08 PM GMT+3 0: 
+
+----------------------------------------------
+1/14/2025, 10:48:09 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.80"}, modulepath: /home/burak/.config/discord/0.0.80/modules
+1/14/2025, 10:48:09 PM GMT+3 2: ✅ webContents.created web1 ""
+1/14/2025, 10:48:09 PM GMT+3 3: ✅ window.created win1 "discord"
+1/14/2025, 10:48:09 PM GMT+3 4: ✅ webContents.did-finish-load web1
+1/14/2025, 10:48:10 PM GMT+3 5: ✅ webContents.created web2 ""
+1/14/2025, 10:48:10 PM GMT+3 6: ✅ window.created win2 "Discord"
+1/14/2025, 10:48:26 PM GMT+3 7: ❌ webContents.did-fail-load web2" -3 
+1/14/2025, 10:48:37 PM GMT+3 8: window.close win1
+1/14/2025, 10:48:37 PM GMT+3 9: webContents.destroyed web1
+1/14/2025, 10:48:37 PM GMT+3 10: window.closed win1
+1/14/2025, 10:48:39 PM GMT+3 11: before-quit
+1/14/2025, 10:48:39 PM GMT+3 12: window.close win2
+1/14/2025, 10:48:54 PM GMT+3 0: 
+
+----------------------------------------------
+1/14/2025, 10:48:54 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.80"}, modulepath: /home/burak/.config/discord/0.0.80/modules
+1/14/2025, 10:48:54 PM GMT+3 2: ✅ webContents.created web1 ""
+1/14/2025, 10:48:54 PM GMT+3 3: ✅ window.created win1 "discord"
+1/14/2025, 10:48:54 PM GMT+3 4: ✅ webContents.did-finish-load web1
+1/14/2025, 10:48:55 PM GMT+3 5: ✅ webContents.created web2 ""
+1/14/2025, 10:48:55 PM GMT+3 6: ✅ window.created win2 "Discord"
+1/14/2025, 10:49:00 PM GMT+3 7: ✅ webContents.did-finish-load web2
+1/14/2025, 10:49:00 PM GMT+3 8: window.close win1
+1/14/2025, 10:49:00 PM GMT+3 9: webContents.destroyed web1
+1/14/2025, 10:49:00 PM GMT+3 10: window.closed win1
+1/14/2025, 10:49:03 PM GMT+3 11: window.close win2
+1/14/2025, 10:49:05 PM GMT+3 12: before-quit
+1/14/2025, 10:49:05 PM GMT+3 13: window.close win2
+1/14/2025, 10:49:11 PM GMT+3 0: 
+
+----------------------------------------------
+1/14/2025, 10:49:11 PM GMT+3 1: Discord starting: {"releaseChannel":"stable","version":"0.0.80"}, modulepath: /home/burak/.config/discord/0.0.80/modules
+1/14/2025, 10:49:11 PM GMT+3 2: ✅ webContents.created web1 ""
+1/14/2025, 10:49:11 PM GMT+3 3: ✅ window.created win1 "discord"
+1/14/2025, 10:49:12 PM GMT+3 4: ✅ webContents.did-finish-load web1
+1/14/2025, 10:49:15 PM GMT+3 5: window.close win1
+1/14/2025, 10:49:16 PM GMT+3 6: webContents.destroyed web1

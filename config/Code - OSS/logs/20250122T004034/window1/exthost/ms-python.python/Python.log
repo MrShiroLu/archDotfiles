@@ -1,0 +1,127 @@
+2025-01-22 00:42:43.386 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:46493)
+	at new v (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:876902)
+	at ge (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1680794)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684158
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684186
+	at Se (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684253)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684733
+	at we (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684674)
+	at Pe (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684708)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1681947
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1683552
+	at Array.reduce (<anonymous>)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1683524
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1683806
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684186
+	at Se (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684253)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684733
+	at we (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684674)
+	at Pe (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684708)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1681947
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1711617
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1711638
+	at e._get (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1710651)
+	at e._getButThrowIfAsync (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1710711)
+	at e.get (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1706420)
+	at e.dynamicValue (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1696153)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1682330
+	at Ee (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1682586)
+	at Se (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684302)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684733
+	at we (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684674)
+	at Pe (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684708)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1681947
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1681881
+	at Array.map (<anonymous>)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1681852
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1683552
+	at Array.reduce (<anonymous>)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1683524
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1683806
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684186
+	at Se (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684253)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684733
+	at we (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684674)
+	at Pe (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1684708)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1681947
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1711617
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1711638
+	at e._get (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1710651)
+	at e._getButThrowIfAsync (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1710711)
+	at e.get (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:1706420)
+	at a.get (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:537217)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:452115
+	at async t.activateComponents (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:450395)
+	at async /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:2636378
+	at async e (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:2635910)
+	at async K0.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:4447)
+	at async K0.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:4410)
+	at async K0.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:115:3866)]
+2025-01-22 00:42:43.386 [info] Starting Environment refresh
+2025-01-22 00:42:43.386 [info] Searching for interpreters in posix paths locator
+2025-01-22 00:42:43.386 [info] Searching for pyenv environments
+2025-01-22 00:42:43.386 [info] Searching for conda environments
+2025-01-22 00:42:43.386 [info] Searching for global virtual environments
+2025-01-22 00:42:43.386 [info] Searching for custom virtual environments
+2025-01-22 00:42:43.386 [info] pyenv is not installed
+2025-01-22 00:42:43.386 [info] Finished searching for pyenv environments: 9 milliseconds
+2025-01-22 00:42:43.386 [info] Finished searching for custom virtual envs: 9 milliseconds
+2025-01-22 00:42:43.386 [info] > conda info --json
+2025-01-22 00:42:43.386 [info] Finished searching for global virtual envs: 24 milliseconds
+2025-01-22 00:42:43.387 [info] Found: /bin/python --> /bin/python3.13
+2025-01-22 00:42:43.388 [info] Found: /bin/python3 --> /bin/python3.13
+2025-01-22 00:42:43.389 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-01-22 00:42:43.415 [info] Found: /sbin/python --> /sbin/python3.13
+2025-01-22 00:42:43.416 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-01-22 00:42:43.416 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-01-22 00:42:43.423 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-01-22 00:42:43.423 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-01-22 00:42:43.423 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-01-22 00:42:43.475 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-01-22 00:42:43.476 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-01-22 00:42:43.476 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-01-22 00:42:43.495 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/python_files/interpreterInfo.py
+2025-01-22 00:42:43.508 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/python_files/interpreterInfo.py
+2025-01-22 00:42:43.515 [info] Finished searching for interpreters in posix paths locator: 166 milliseconds
+2025-01-22 00:42:43.522 [info] Environments refresh paths discovered (event): 174 milliseconds
+2025-01-22 00:42:43.522 [info] Environments refresh paths discovered: 174 milliseconds
+2025-01-22 00:42:43.556 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/python_files/interpreterInfo.py
+2025-01-22 00:42:43.564 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/python_files/interpreterInfo.py
+2025-01-22 00:42:43.606 [info] Environments refresh finished (event): 258 milliseconds
+2025-01-22 00:42:43.616 [info] Environment refresh took 268 milliseconds
+2025-01-22 00:42:43.624 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 277ms, has a falsy return value, Arg 1: undefined, Arg 2: {"started":1737495763307}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+  	at C.activate (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:906574)
+  	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:2447)]
+]
+2025-01-22 00:42:43.624 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+	at C.activate (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:906574)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:2447)]
+2025-01-22 00:42:43.625 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:16650)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:157:39656)
+	at C.activate (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:906574)
+	at /home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/burak/.vscode-oss/extensions/ms-python.python-2024.23.0-dev-universal/out/client/extension.js:2:2447)]
+2025-01-22 00:42:43.625 [info] Python interpreter path: /bin/python
+2025-01-22 00:42:44.904 [info] Starting Jedi language server for default.
