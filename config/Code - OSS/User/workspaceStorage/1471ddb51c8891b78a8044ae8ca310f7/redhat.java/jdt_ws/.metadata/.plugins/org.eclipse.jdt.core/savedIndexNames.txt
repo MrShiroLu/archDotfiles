@@ -1,5 +1,0 @@
-INDEX VERSION 1.134+/home/burak/.config/Code - OSS/User/workspaceStorage/1471ddb51c8891b78a8044ae8ca310f7/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
-1275673723.index
-1865797976.index
-3280773022.index
-716298714.index
